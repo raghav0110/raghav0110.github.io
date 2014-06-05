@@ -1,159 +1,122 @@
-Big Picture 1.0 by HTML5 UP
-html5up.net | @n33co
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+==================================================================================================
+
+CEEVEE is a clean, modern, fully responsive site template for your
+resume and portfolio. With this template, you can easily introduce
+yourself and showcase your works to future clients and employers. Also,
+it is flexible and easy to customize so you can even use this template as a 
+creative, business or portfolio site for your company.
+
+==================================================================================================
 
 
-This is Big Picture, a simple, single page responsive site template by HTML5 UP.
+LICENSE:
 
-So I've been on a single page kick as of late, partly because I'm lazy, but
-mostly because they kick ass for experimentation. In this case, Big Picture
-makes heavy use of my (tentatively named and soon to be released) "scrollgress"
-and "scrollwatch" jQuery plugins to pull off some interesting effects as you
-scroll around the page. In addition to said interesting effects, Big Picture
-also includes a nice lightbox-style gallery, styling for basic page elements,
-a handy centralized settings area, and thoroughly commented code for your editing
-pleasure (with instructions! -- see below).
+CEEVEE is released under the Creative Commons Attribution 3.0 License
+(http://creativecommons.org/licenses/by/3.0/). This means that you are free:
 
-Many thanks to my good friends Felicia Simion (ineedchemicalx.deviantart.com)
-and Michael Domaradzki (mdomaradzki.deviantart.com) for allowing me to use
-their amazing photos in Big Picture's demo*.
+   to Share - to copy, distribute, display, and perform the work
+   to Remix - to make derivative works
+   to make commercial use of the work 
 
-(* Not included with this download (replaced with generic placeholder images), as
-I only have permission to use their work in my own on-site demos. Do NOT download
-or use any of their work without prior explicit permission.)
+Under the following conditions:
 
+   Attribution - You must attribute the work in the manner specified by the 
+   author or licensor (but not in any way that suggests that they endorse you 
+   or your use of the work). 
 
-AJ
-n33.co @n33co dribbble.com/n33
+   For any reuse or distribution, you must make clear to others the license 
+   terms of this work
 
+   Any of these conditions can be waived if you get permission from the 
+   copyright holder
 
-
-Instructions
-============
-
-	Being a single pager, Big Picture should be way simpler to work with than
-	some of the heavier stuff I've released in the past. In fact, aside from
-	a main page <header> and <footer>, it's pretty much just a stack of "main"
-	<section> elements that follow the same basic pattern:
-
-		<section id="foobar" class="main">
-			<div class="content container">
-				<header>
-					<h2>Foobar</h2>
-				</header>
-				...
-			</div>
-		</section>
-
-	The section can then be assigned a style class to determine its basic
-	look (and, in some cases, its behavior):
+Attribution: 
 	
-		style1
-			Centered content with an oversized <h2>. Works best when
-			paired with a background image or color.
-			
-		style2 left
-			Content in a box, anchored to the left side of the window. Works
-			best when paired with a background image or color. If you have
-			"useSectionTransitions" turned on in your settings, the box will
-			slide into view from the left.
-						
-		style2 right
-			Content in a box, anchored to the right side of the window. Works
-			best when paired with a background image or color. If you have
-			"useSectionTransitions" turned on in your settings, the box will
-			slide into view from the right.
-	
-		style3 primary
-			Used for generic content. Set against the primary background
-			color (default is white).
-			
-		style3 secondary
-			Used for generic content. Set against the secondary background
-			color (default is a light gray).
-		
-	Oh, and there are a few (well, two) optional modifier classes you can
-	tack on for additional effects:
-	
-		dark
-			Flips the content's color scheme so it shows up better
-			against darker background images and colors.
-			
-		fullscreen
-			Makes the section fill the entire window (only if "useFullScreen"
-			is enabled in your settings).
+   You must include a credit link to our website(http://www.Styleshout.com) somewhere on
+   your site. We prefer the footer credit that comes with the template but you are still 
+   free to move it somewhere else.
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+REMOVING THE LINK:
+
+We understand that there are situations where you want to use the template without the 
+crediting obligation. If that's your case, you can always send us a 
+credit removal fee of 10 USD through Paypal. This will allow you to use the 
+template attribution/credit link free on ONE DOMAIN name. 
+
+You can send your payments through Paypal to this address: ealigam@gmail.com
+
+If possible, kindly send us the site's url where the template is being used. 
+Also, keep your Paypal receipt as proof of payment and your good to go.
+
+
+------------------------------------------------------------------------------------------------------ 
+
+
+SUPPORT:
+    
+Since CEEVEE is distributed for free, support is not offered. CEEVEE is coded according 
+to current web standards and we did our best to make the template easy to use and modify.
+If you have minimum web development experience, you can easily modify the template. 
+However, If you're still new to HTML and CSS, I suggest that you visit the 
+following tutorials:
+
+ - http://tutsplus.com/course/30-days-to-learn-html-and-css/
+ - http://code.tutsplus.com/series/web-development-from-scratch--net-19995
+
+These will teach you the essentials of HTML and CSS. In addition, if you want to include
+jQuery in your skill-set, you can also check out these tutorials: 
+
+ - https://tutsplus.com/course/30-days-to-learn-jquery/
+ - http://code.tutsplus.com/articles/jquery-for-absolute-beginners-video-series--net-2134
+
+
+------------------------------------------------------------------------------------------------------ 
+
+
+GET THE LATEST VERSION:
+
+We update our templates on a regular basis so to make sure that you have the latest version, 
+always download the template files directly at our website(http://www.styleshout.com/)
 
 
 
-Settings
-=========
-
-	A handful of settings can be found at the top of js/init.js to tweak
-	Big Picture's behavior:
-
-		useFullScreen
-			If true, main sections with the "fullscreen" class will be resized to
-			fill the window. If false, they'll be left alone. Default is true.
-			
-			* This defaults to false on mobile devices.
-
-		useSectionTransitions
-			If true, section transitions (the stuff that happens when you scroll)
-			will be used. If false, no transitions will be used and stuff will
-			just kind of .. sit there. Default is true.
-
-			* This defaults to false on touch-enabled devices because they
-			  don't trigger the "scroll" event until *after* you lift your finger
-			  off the screen. Kind of a problem since scrollwatch/scrollgress rely
-			  on that event to do stuff.
-			  
-			* This *also* defaults to false in IE9 (and lower) since it doesn't
-			  support CSS transitions and shit just looks weird without them.
-
-		fadeInSpeed
-			Speed at which to fade in the page on load (in ms). Default is 1000.
+-------------------------------------------------------------------------------------------------------
 
 
+SOURCES AND CREDITS:
 
-Other Stuff
-===========
+I've used the following resources as listed.
 
-	- If you don't like the way images are tinted, either change "images/overlay.png"
-	  to something else, or remove all references to it from css/style.css.
+Fonts:
+ - Open Sans Font (http://www.google.com/fonts/specimen/Open+Sans)
+ - Libre Baskerville Font (http://www.google.com/fonts/specimen/Libre+Baskerville) 
 
-	- If you plan to keep support for IE8 (what little there is), don't forget to update
-	  css/ie/ie8.css as you change other stuff.
-	  
-	- skelJS (frame this thing is built on): http://skeljs.org
-	
-	- Poptrox (powers the lightbox-style gallery): http://github.com/n33/jquery.poptrox
+Icons:
+ - Font Awesome (http://fortawesome.github.io/Font-Awesome/)
+ - Fontello (http://fontello.com/)
+
+Stock Photos and Graphics:
+ - UnSplash.com (http://unsplash.com/)
+ - Morguefile.com (http://www.morguefile.com/)
+
+Javascript Files:
+
+ - JQuery (http://jquery.com/)
+ - FlexSlider by Woothemes (http://www.woothemes.com/flexslider/)
+ - Modernizr (http://modernizr.com/)
+ - FitText (http://fittextjs.com/) 
+ - Magnific Popup (http://dimsemenov.com/plugins/magnific-popup/)
+ - jQuery Waypoints (http://imakewebthings.com/jquery-waypoints/)
 
 
+--------------------------------------------------------------------------------------------------------- 
 
-Credits
-=======
 
-	Images (Demo Only)
-		Felicia Simion (http://ineedchemicalx.deviantart.com/)
-			"The Swallow Song" (http://ineedchemicalx.deviantart.com/art/The-Swallow-Song-414742090)
-			"Mind is a clear stage" (http://ineedchemicalx.deviantart.com/art/Mind-is-a-clear-stage-375431607)
-			"The Anonymous Red" (http://ineedchemicalx.deviantart.com/art/The-Anonymous-Red-428927280)
-			"The sparkling shell" (http://ineedchemicalx.deviantart.com/art/The-sparkling-shell-423256221)
-			"Carry on" (http://ineedchemicalx.deviantart.com/art/Carry-on-421878967)
+Thanks for downloading from Styleshout :)
+  
 
-		Michael Domaradzki (http://mdomaradzki.deviantart.com/)	
-			"Vine Country" (http://mdomaradzki.deviantart.com/art/Vine-Country-381350120)
-			"Airchitecture II" (http://mdomaradzki.deviantart.com/art/Airchitecture-II-385212804)
-			"Bent IX" (http://mdomaradzki.deviantart.com/art/Bent-IX-372298067)
-			"Air Lounge" (http://mdomaradzki.deviantart.com/art/Air-Lounge-385212062)
-
-	Icons
-		Font Awesome (http://fortawesome.github.com/Font-Awesome/)
-
-	Other
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		CSS3 PIE (http://css3pie.com/)
-		background-size polyfill (https://github.com/louisremi/background-size-polyfill)
-		jquery.poptrox, other misc plugins (n33.co)
-		skelJS (skeljs.org)
