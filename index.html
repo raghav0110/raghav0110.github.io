@@ -46,9 +46,8 @@
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
-            <li><a class="smoothscroll" href="#resume">Work</a></li>
             <li><a class="smoothscroll" href="#portfolio">Research</a></li>
-            <li><a class="smoothscroll" href="#projects">Projects</a></li>
+            <li><a class="smoothscroll" href="#resume">Work</a></li>
             <li><a href="./pdf/resume.pdf">Resume</a></li>
 
          </ul> <!-- end #nav -->
@@ -123,8 +122,44 @@
 
    </section> <!-- About Section End-->
 
+<section id="portfolio">
 
-   <!-- Resume Section
+      <div class="row">
+      <div class="three columns header-col">
+            <h1><span>Research Experience</span></h1>
+         </div>
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+               <h3>Mobile Systems Management</h3>
+                  <p>
+                  I am collaborating on a project which allows system administrators to monitor commercial data centers using mobile devices. We approach the problem by introducing a middleware between the mobile device and the monitored data centers. The middleware is used to process the streams of monitoring data from the data center target machines. It disseminates data to mobile devices when events are trigerred. I worked on developing the mobile application which receives alerts from the middleware and identified similar enterprise applications and identified ways to distinguish the novelty of our solution. I conducted evaluations on the middleware and the mobile device to measure there performance and compared them to current state of the art solutions. We have submitted a <a href=./pdf/medal-paper.pdf>research paper</a> to <a href=http://2014.middleware-conference.org/>Middleware 2014</a> based on our work. During Fall 2014, I will continue to work on this project and start working on the middleware component of our framework.
+                  </p>
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+               <h3>Trust Management in Service Oriented Architectures</h3>
+                  <p>
+                  I worked on a project which measures the trust level of independent services in a Service Oriented Architecture (SOA). The project aims at identifying how the trust level of different services within the architecture changes based on prior interaction history. I implemented a module which shows the variation in trust of the different services in the architecture. <a href=./pdf/soa.png>Here</a> is a poster of our work.
+
+
+                  </p>
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+<!-- Resume Section
    ================================================== -->
    <section id="resume">
 
@@ -133,7 +168,7 @@
       <div class="row education">
 
          <div class="three columns header-col">
-            <h1>SDE Intern, Microsoft Office CXE</h1>
+            <h1><span>Work Experience</span></h1>
          </div>
 
          <div class="nine columns main-col">
@@ -142,13 +177,43 @@
 
                <div class="twelve columns">
 
+                  <h3>SDE Intern, Microsoft Office CXE</h3>
                   <p>
                    I am currently interning at Microsoft in the Office CXE team. My team is responsible for developing the core UI platform for Office applications in the Windows Store. I am working on a framework that will allow the team to utilize a cloud service to modify UI properties within the client applications. This framework will facilitate flighting and A/B testing. I am utilizing Microsoft Azure to develop the cloud service and utilizing features such as Table Storage and memory caching within Azure. 
+                  </p>
+
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>SDE Intern, Qualcomm QCT Target Test Apps</h3>
+                  <p>
+                  During Summer 2013 I worked as a Software Development intern at Qualcomm. I worked in the Target Test Apps team which was responsible for developing a test framework Android application to measure the performance and stability of Snapdragon processors. I utilized the Android SDK to develop features to test low power audio, GPS, WiFi connectivity, and FTP features. I utilized the Android NDK to develop a feature which would test the functionality of low level subsystems in the processor. I developed XML test cases to run automated tests on the application. 
                   </p>
 
                </div>
 
             </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Mobile Development Intern, LoadOut</h3>
+                  <p>
+                  During Summer 2012 I worked as an intern at LoadOut technologies, a startup in West Lafayette, IN. I worked on developing Android applications for local agriculture radio station networks. I developed audio and video playback features, and synchronized news feeds on the application with radio station servers. I also worked on a multimedia feature for a social agronomy application. 
+                  </p>
+
+               </div>
+
+            </div>
+
+         </div> <!-- main-col end -->
 
       </div> <!-- End Education -->
 
@@ -158,7 +223,7 @@
       <div class="row work">
 
          <div class="three columns header-col">
-            <h1>SDE Intern, Qualcomm QCT Target Test Apps</h1>
+            <h1><span>Projects</span></h1>
          </div>
 
          <div class="nine columns main-col">
@@ -167,28 +232,23 @@
 
                <div class="twelve columns">
 
+                  <h3>Nature Nation</h3>
                   <p>
-                  During Summer 2013 I worked as a Software Development intern at Qualcomm. I worked in the Target Test Apps team which was responsible for developing a test framework Android application to measure the performance and stability of Snapdragon processors. I utilized the Android SDK to develop features to test low power audio, GPS, WiFi connectivity, and FTP features. I utilized the Android NDK to develop a feature which would test the functionality of low level subsystems in the processor. I developed XML test cases to run automated tests on the application. 
+                  I lead a team to develop a mobile application that allows users to navigate to various wildlife species in the USA. We used the mobile application to take pictures of wildlife animals and sent the pictures and the GPS coordinates to a cloud service which identified the name and type of the animal. The mobile application synchronizes with the cloud service to receive a list of animals nearby. The cloud service is implemented such that it uses Amazon Mechanical Turk to identify the name and type of the animal. I worked on implementing the cloud service and the camera features within the mobile application. The application won 2nd place at the Google development competiton at Purdue.
                   </p>
 
                </div>
 
             </div> <!-- item end -->
 
-         </div> <!-- main-col end -->
-
-         <div class="three columns header-col">
-            <h1>Mobile Development Intern, LoadOut</h1>
-         </div>
-
-         <div class="nine columns main-col">
-
             <div class="row item">
 
                <div class="twelve columns">
 
+                  <h3>Purdue Assistant</h3>
+
                   <p>
-                  During Summer 2012 I worked as an intern at LoadOut technologies, a startup in West Lafayette, IN. I worked on developing Android applications for local agriculture radio station networks. I developed audio and video playback features, and synchronized news feeds on the application with radio station servers. I also worked on a multimedia feature for a social agronomy application. 
+                  I worked in a team to develop a personal assistant Android application for students at Purdue University. The application included a dining court menu, campus maps, Purdue game scoreboards, and a course scheduler. We implemented a voice assistant for the application which assists users on executing voice commands. I worked on the scoreboard, dining court menu and the voice assistant. My team won 1st place in the course programming competition.
                   </p>
 
                </div>
@@ -199,59 +259,12 @@
 
       </div> <!-- End Work -->
 
-   </section> <!-- Resume Section End-->
 
+   </section> <!-- Resume Section End-->
 
    <!-- Portfolio Section
    ================================================== -->
-   <section id="portfolio">
-
-      <div class="row">
-      <div class="three columns header-col">
-            <h1>Mobile Systems Management</h1>
-         </div>
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-                  <p>
-                  I am collaborating on a project which allows system administrators to monitor commercial data centers using mobile devices. We approach the problem by introducing a middleware between the mobile device and the monitored data centers. The middleware is used to process the streams of monitoring data from the data center target machines. It disseminates data to mobile devices when events are trigerred. I worked on developing the mobile application which receives alerts from the middleware and identified similar enterprise applications and identified ways to distinguish the novelty of our solution. I conducted evaluations on the middleware and the mobile device to measure there performance and compared them to current state of the art solutions. We have submitted a <a href=./pdf/medal-paper.pdf>research paper</a> to <a href=http://2014.middleware-conference.org/>Middleware 2014</a> based on our work. During Fall 2014, I will continue to work on this project and start working on the middleware component of our framework.
-                  </p>
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- row End -->
-
-   </section> <!-- Portfolio Section End-->
-
-
-   <section id="projects">
-
-      <div class="row">
-      <div class="three columns header-col">
-            <h1>Nature Nation</h1>
-         </div>
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-                  <p>
-                  I lead a team to develop a mobile application that allows users to navigate to various wildlife species in the USA. We used the mobile application to take pictures of wildlife animals and sent the pictures and the GPS coordinates to a cloud service which identified the name and type of the animal. The mobile application synchronizes with the cloud service to receive a list of animals nearby. The cloud service is implemented such that it uses Amazon Mechanical Turk to identify the name and type of the animal. I worked on implementing the cloud service and the camera features within the mobile application. 
-                  </p>
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- row End -->
-
-   </section> <!-- Portfolio Section End-->
+   
 
 
    <!-- footer
